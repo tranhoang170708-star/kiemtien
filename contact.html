@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>Contact Us — CreatorTools Hub</title>
+  <meta name="description" content="Get in touch with the CreatorTools Hub team. Questions, feedback, bug reports, or partnership inquiries — we'd love to hear from you." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="CreatorTools Hub" />
+  <link rel="canonical" href="https://www.creatortoolshub.com/contact.html" />
+
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://www.creatortoolshub.com/contact.html" />
+  <meta property="og:title"       content="Contact Us — CreatorTools Hub" />
+  <meta property="og:description" content="Questions, feedback, or partnership inquiries? Reach out to the CreatorTools Hub team." />
+  <meta property="og:image"       content="https://www.creatortoolshub.com/assets/og-image.png" />
+  <meta property="og:site_name"   content="CreatorTools Hub" />
+
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Contact Us — CreatorTools Hub" />
+  <meta name="twitter:description" content="Questions or feedback? Reach out to the CreatorTools Hub team." />
+  <meta name="twitter:image"       content="https://www.creatortoolshub.com/assets/og-image.png" />
+
+  <link rel="icon" href="/assets/favicon.ico" sizes="any" />
+  <link rel="icon" href="/assets/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <meta name="theme-color" content="#6C63FF" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" />
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home",    "item": "https://www.creatortoolshub.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://www.creatortoolshub.com/contact.html" }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact CreatorTools Hub",
+    "url": "https://www.creatortoolshub.com/contact.html",
+    "description": "Get in touch with the CreatorTools Hub team for questions, feedback, or partnership inquiries.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CreatorTools Hub",
+      "url": "https://www.creatortoolshub.com/"
+    }
+  }
+  </script>
+
+  <style>
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.6fr;
+      gap: var(--sp-10);
+      align-items: start;
+    }
+    @media (max-width: 768px) {
+      .contact-grid { grid-template-columns: 1fr; }
+    }
+    .contact-info-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      padding: var(--sp-8);
+      display: flex;
+      flex-direction: column;
+      gap: var(--sp-6);
+    }
+    .contact-info-item {
+      display: flex;
+      gap: var(--sp-4);
+      align-items: flex-start;
+    }
+    .contact-info-icon {
+      width: 44px;
+      height: 44px;
+      background: var(--color-primary-light);
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+    .contact-form-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-md);
+      padding: var(--sp-8);
+    }
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--sp-4);
+    }
+    @media (max-width: 480px) {
+      .form-row { grid-template-columns: 1fr; }
+    }
+    #contact-success {
+      display: none;
+      background: #E8F8EE;
+      border: 1px solid var(--color-success);
+      border-radius: var(--radius-lg);
+      padding: var(--sp-6);
+      text-align: center;
+      color: var(--color-success);
+      font-family: var(--font-heading);
+      font-weight: var(--fw-semi);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="/" class="site-logo" aria-label="CreatorTools Hub — Home">
+        <div class="site-logo__mark" aria-hidden="true">🚀</div>
+        <span class="site-logo__text">Creator<span>Tools</span> Hub</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="/"                                       class="nav-link">Home</a>
+        <a href="/tools/tiktok-hook-generator.html"       class="nav-link">TikTok</a>
+        <a href="/tools/instagram-caption-generator.html" class="nav-link">Instagram</a>
+        <a href="/tools/youtube-title-generator.html"     class="nav-link">YouTube</a>
+        <a href="/tools/hashtag-generator.html"           class="nav-link">Hashtags</a>
+        <a href="/tools/script-idea-generator.html"       class="nav-link">Scripts</a>
+        <a href="/about.html"                             class="nav-link">About</a>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="/"                                       class="nav-link">🏠 Home</a>
+    <a href="/tools/tiktok-hook-generator.html"       class="nav-link">🎵 TikTok Hook Generator</a>
+    <a href="/tools/instagram-caption-generator.html" class="nav-link">📸 Instagram Caption Generator</a>
+    <a href="/tools/youtube-title-generator.html"     class="nav-link">▶️ YouTube Title Generator</a>
+    <a href="/tools/hashtag-generator.html"           class="nav-link">#️⃣ Hashtag Generator</a>
+    <a href="/tools/script-idea-generator.html"       class="nav-link">📝 Script Idea Generator</a>
+    <a href="/about.html"                             class="nav-link">👋 About</a>
+  </nav>
+
+  <main id="main-content">
+
+    <div class="ad-leaderboard" aria-hidden="true">Advertisement</div>
+
+    <!-- Hero -->
+    <section class="tool-page-hero" aria-labelledby="contact-title">
+      <div class="container container--md">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+          <span class="breadcrumb__sep" aria-hidden="true">›</span>
+          <span class="breadcrumb__current" aria-current="page">Contact</span>
+        </nav>
+        <div style="display: flex; align-items: center; gap: var(--sp-4); margin-bottom: var(--sp-4); flex-wrap: wrap;">
+          <div class="tool-card__icon" style="width:60px;height:60px;font-size:1.75rem;background:var(--color-primary-light);" aria-hidden="true">✉️</div>
+          <div>
+            <div class="badge badge-primary" style="margin-bottom: var(--sp-2);">Get In Touch</div>
+            <h1 class="display-lg" id="contact-title">Contact Us</h1>
+          </div>
+        </div>
+        <p class="body-lg text-muted" style="max-width: 560px;">
+          Have a question, spotted a bug, or want to work together? We read every message and aim to reply within 1–2 business days.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Grid -->
+    <section class="section" aria-label="Contact form and information">
+      <div class="container container--md">
+        <div class="contact-grid">
+
+          <!-- Left: Info -->
+          <div class="contact-info-card">
+
+            <div>
+              <h2 class="heading-xl" style="margin-bottom: var(--sp-2);">We'd love to hear from you</h2>
+              <p class="body-sm text-muted">Whether it's a quick question or a detailed partnership proposal, reach out through the form or use the details below.</p>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">📧</div>
+              <div>
+                <p style="font-weight: var(--fw-semi); font-family: var(--font-heading); color: var(--color-text-heading); margin-bottom: var(--sp-1);">Email</p>
+                <a href="mailto:hello@creatortoolshub.com" style="font-size: var(--fs-sm); color: var(--color-primary);">hello@creatortoolshub.com</a>
+                <p class="body-sm text-muted" style="margin-top: var(--sp-1);">General enquiries &amp; feedback</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">🤝</div>
+              <div>
+                <p style="font-weight: var(--fw-semi); font-family: var(--font-heading); color: var(--color-text-heading); margin-bottom: var(--sp-1);">Partnerships &amp; Advertising</p>
+                <a href="mailto:partners@creatortoolshub.com" style="font-size: var(--fs-sm); color: var(--color-primary);">partners@creatortoolshub.com</a>
+                <p class="body-sm text-muted" style="margin-top: var(--sp-1);">Sponsorships, collaborations &amp; press</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">🐛</div>
+              <div>
+                <p style="font-weight: var(--fw-semi); font-family: var(--font-heading); color: var(--color-text-heading); margin-bottom: var(--sp-1);">Bug Reports</p>
+                <p class="body-sm text-muted">Use the contact form and select "Bug Report" — include your browser, OS, and steps to reproduce.</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">⏱️</div>
+              <div>
+                <p style="font-weight: var(--fw-semi); font-family: var(--font-heading); color: var(--color-text-heading); margin-bottom: var(--sp-1);">Response Time</p>
+                <p class="body-sm text-muted">We aim to reply within 1–2 business days. During high volume periods it may take a little longer.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right: Form -->
+          <div class="contact-form-card">
+            <h2 class="heading-xl" style="margin-bottom: var(--sp-6);">Send us a message</h2>
+
+            <div id="contact-success" role="alert" aria-live="polite">
+              ✅ Message sent! We'll get back to you within 1–2 business days.
+            </div>
+
+            <form id="contact-form" novalidate>
+              <div style="display: flex; flex-direction: column; gap: var(--sp-5);">
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="contact-name">First Name <span aria-hidden="true" style="color:var(--color-secondary);">*</span></label>
+                    <input class="form-input" type="text" id="contact-name" name="name" placeholder="Alex" autocomplete="given-name" required aria-required="true" />
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="contact-lastname">Last Name</label>
+                    <input class="form-input" type="text" id="contact-lastname" name="lastname" placeholder="Johnson" autocomplete="family-name" />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="contact-email">Email Address <span aria-hidden="true" style="color:var(--color-secondary);">*</span></label>
+                  <input class="form-input" type="email" id="contact-email" name="email" placeholder="you@example.com" autocomplete="email" required aria-required="true" />
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="contact-subject">Subject <span aria-hidden="true" style="color:var(--color-secondary);">*</span></label>
+                  <select class="form-select" id="contact-subject" name="subject" required aria-required="true">
+                    <option value="" disabled selected>Select a topic…</option>
+                    <option value="general">General Question</option>
+                    <option value="feedback">Product Feedback</option>
+                    <option value="bug">Bug Report</option>
+                    <option value="partnership">Partnership / Advertising</option>
+                    <option value="press">Press Enquiry</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="contact-message">Message <span aria-hidden="true" style="color:var(--color-secondary);">*</span></label>
+                  <textarea
+                    class="form-textarea"
+                    id="contact-message"
+                    name="message"
+                    rows="5"
+                    placeholder="Tell us what's on your mind…"
+                    maxlength="2000"
+                    required
+                    aria-required="true"
+                    aria-describedby="message-count"
+                    data-maxlength="2000"
+                    data-counter="message-count"
+                  ></textarea>
+                  <p id="message-count" class="body-sm text-muted" style="text-align: right;">0/2000</p>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg btn-block" id="contact-submit">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                  Send Message
+                </button>
+
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="ad-mobile-banner" aria-hidden="true">Advertisement</div>
+
+    <!-- FAQ -->
+    <section class="section" style="background: var(--color-surface);" aria-labelledby="faq-title">
+      <div class="container container--md">
+        <div class="text-center" style="margin-bottom: var(--sp-8);">
+          <p class="section-label">Quick Answers</p>
+          <h2 class="display-lg" id="faq-title">Common Questions</h2>
+        </div>
+        <div class="faq-list">
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a1" id="faq-q1">
+              How quickly will I get a response?
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-a1" role="region" aria-labelledby="faq-q1">
+              We aim to respond to all messages within 1–2 business days. During peak periods it may take slightly longer, but we read every message and make sure nothing gets missed.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">
+              Do you accept tool or feature suggestions?
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-a2" role="region" aria-labelledby="faq-q2">
+              Absolutely — feature requests from creators are the primary source of our roadmap. If there's a tool you wish existed or an improvement you think would help, send it through using the form above. We genuinely read and consider everything.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">
+              I found a bug. What information should I include?
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-a3" role="region" aria-labelledby="faq-q3">
+              To help us fix bugs quickly, please include: (1) which tool or page the bug is on, (2) your browser and operating system, (3) a brief description of what you expected to happen vs. what actually happened, and (4) steps to reproduce the issue if possible. Screenshots are always appreciated.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">
+              Do you offer advertising or sponsorship opportunities?
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-a4" role="region" aria-labelledby="faq-q4">
+              Yes, but selectively. We only partner with brands that are genuinely relevant to content creators — tools, software, courses, or services that our audience would find valuable. If you represent such a brand, please reach out at partners@creatortoolshub.com with your proposal.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="site-logo" aria-label="CreatorTools Hub — Home">
+            <div class="site-logo__mark" aria-hidden="true">🚀</div>
+            <span class="site-logo__text">Creator<span>Tools</span> Hub</span>
+          </a>
+          <p class="footer-brand__text">Free AI-powered tools for modern content creators.</p>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-col__title">Tools</h3>
+          <ul class="footer-links">
+            <li><a href="/tools/tiktok-hook-generator.html">TikTok Hook Generator</a></li>
+            <li><a href="/tools/instagram-caption-generator.html">Instagram Caption Generator</a></li>
+            <li><a href="/tools/youtube-title-generator.html">YouTube Title Generator</a></li>
+            <li><a href="/tools/hashtag-generator.html">Hashtag Generator</a></li>
+            <li><a href="/tools/script-idea-generator.html">Script Idea Generator</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-col__title">Company</h3>
+          <ul class="footer-links">
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-col__title">Legal</h3>
+          <ul class="footer-links">
+            <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="/terms.html">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="footer-year">2024</span> CreatorTools Hub. All rights reserved.</p>
+        <p>Made with ❤️ for content creators worldwide.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js" defer></script>
+  <script>
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+    // Simple contact form handler (demo — replace with real backend/Formspree/etc.)
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const btn = document.getElementById('contact-submit');
+      const name = document.getElementById('contact-name').value.trim();
+      const email = document.getElementById('contact-email').value.trim();
+      const subject = document.getElementById('contact-subject').value;
+      const message = document.getElementById('contact-message').value.trim();
+
+      if (!name || !email || !subject || !message) return;
+
+      btn.disabled = true;
+      btn.textContent = 'Sending…';
+
+      // Simulate async send
+      setTimeout(() => {
+        document.getElementById('contact-form').style.display = 'none';
+        const success = document.getElementById('contact-success');
+        success.style.display = 'block';
+        success.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 800);
+    });
+  </script>
+</body>
+</html>
