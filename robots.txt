@@ -55,4 +55,4 @@ Disallow: /
 # Sitemap location
 # ============================================================
 
-Sitemap: https://www.creatortoolshub.com/sitemap.xml
+Sitemap: https://nqtool.vercel.app/sitemap.xml
